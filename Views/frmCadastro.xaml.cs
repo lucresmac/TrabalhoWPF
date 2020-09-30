@@ -18,14 +18,8 @@ namespace Hospital.Views
 
         private void btnBuscar_Click(object sender, RoutedEventArgs e)
         {
-            paciente = PacienteDAO.BuscaPacienteID(Convert.ToInt32(txtId.Text));
-            if(paciente != null)
-            {
-                txtCPF.Text = paciente.CPF;
-                txtNome.Text = paciente.Nome;
-                txtEmail.Text = paciente.Email;
-                txtTelefone.Text = paciente.Telefone;
-            }
+            frmBuscaPaciente busca = new frmBuscaPaciente();
+            busca.ShowDialog();
         }
 
         private void btnCadastrar_Click(object sender, RoutedEventArgs e)
@@ -43,12 +37,14 @@ namespace Hospital.Views
                 {
                     MessageBox.Show("Paciente cadastrado com sucesso!!!", "",
                         MessageBoxButton.OK, MessageBoxImage.Information);
-                    
+
                 }
                 else
                 {
                     MessageBox.Show("Paciente já existe!!!", "",
                         MessageBoxButton.OK, MessageBoxImage.Error);
+                    frmBuscaPaciente frm = new frmBuscaPaciente();
+                    frm.ShowDialog();
                 }
             }
             else

@@ -57,3 +57,5 @@ D:\Documents\GitHub\Hospital\Hospital\bin\Debug\netcoreapp3.1\runtimes\win-x86\n
 D:\Documents\GitHub\Hospital\Hospital\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Documents\GitHub\Hospital\Hospital\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Documents\GitHub\Hospital\Hospital\obj\Debug\netcoreapp3.1\Hospital.csproj.CopyComplete
+D:\Documents\GitHub\Hospital\Hospital\obj\Debug\netcoreapp3.1\Views\frmBuscaPaciente.g.cs
+D:\Documents\GitHub\Hospital\Hospital\obj\Debug\netcoreapp3.1\Views\frmBuscaPaciente.baml

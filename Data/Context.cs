@@ -12,7 +12,7 @@ namespace Hospital.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Hospital;Trusted_Connection=true");
+            options.UseSqlServer(@"Server=tcp:servidorfacu.database.windows.net,1433;Initial Catalog=Hospital_Medico;Persist Security Info=False;User ID=lucresmac;Password=teste22!@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
         public DbSet<Paciente> Pacientes { get; set; }
     }

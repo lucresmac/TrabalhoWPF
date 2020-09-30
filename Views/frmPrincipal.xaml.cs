@@ -39,5 +39,11 @@ namespace Hospital.Views
             frmCadastro frm = new frmCadastro();
             frm.ShowDialog();
         }
+
+        private void BuscarPaciente_Click(object sender, RoutedEventArgs e)
+        {
+            frmBuscaPaciente frm = new frmBuscaPaciente();
+            frm.ShowDialog();
+        }
     }
 }

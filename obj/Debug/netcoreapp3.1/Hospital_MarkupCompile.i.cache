@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 D:\Documents\GitHub\Hospital\Hospital\App.xaml
-2511975474
+3-711880955
 
-9-1055469437
+10-1072920561
 217495889034
-Views\frmCadastro.xaml;Views\frmPrincipal.xaml;
+Views\frmBuscaPaciente.xaml;Views\frmCadastro.xaml;Views\frmPrincipal.xaml;
 
 True
 

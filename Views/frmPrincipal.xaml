@@ -11,8 +11,9 @@
             <MenuItem Header="_Arquivo">
                 <MenuItem x:Name="menuSair" Header="_Sair" Click="menuSair_Click"/>
             </MenuItem>
-            <MenuItem Header="_Cadastrar">
-                <MenuItem x:Name="CadastrarPaciente" Header="Paciente" Click="CadastrarPaciente_Click"/>
+            <MenuItem Header="_Paciente">
+                <MenuItem x:Name="CadastrarPaciente" Header="Cadastrar" Click="CadastrarPaciente_Click"/>
+                <MenuItem x:Name="BuscarPaciente" Header="Buscar" Click="BuscarPaciente_Click"/>
             </MenuItem>
             <MenuItem Header="_Sobre"/>
         </Menu>

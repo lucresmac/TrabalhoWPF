@@ -5,20 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hospital.Views"
         mc:Ignorable="d"
-        Title="Cadastro Paciente" Height="476" Width="459" WindowStartupLocation="CenterScreen" FontSize="16" FontWeight="Medium">
+        Title="Cadastro Paciente" Height="408" Width="459" WindowStartupLocation="CenterScreen" FontSize="16" FontWeight="Medium">
     <Grid>
         <Label Content="Cadastro de Paciente" FontSize="18" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <Label Content="Nome do Paciente:" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtNome" HorizontalAlignment="Center" Margin="14,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" />
-        <Label Content="CPF:" HorizontalAlignment="Left" Margin="14,170,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCPF" HorizontalAlignment="Center" Margin="14,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="0"/>
-        <Label Content="Email:" HorizontalAlignment="Left" Margin="14,231,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="14,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="1"/>
-        <Label Content="Telefone:" HorizontalAlignment="Left" Margin="14,288,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtTelefone" HorizontalAlignment="Center" Margin="14,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="2"/>
-        <Button x:Name="btnBuscar" Content="Buscar Paciente" HorizontalAlignment="Left" Margin="77,379,0,0" VerticalAlignment="Top" Height="40" Width="130" TabIndex="3" Click="btnBuscar_Click"/>
-        <Button x:Name="btnCadastrar" Content="Cadastrar Paciente" HorizontalAlignment="Left" Margin="212,379,0,0" VerticalAlignment="Top" Height="40" Width="145" Click="btnCadastrar_Click" TabIndex="4"/>
-        <Label Content="ID Paciente:" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="45,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="0"/>
+        <Label Content="Nome do Paciente:" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="45,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" />
+        <Label Content="CPF:" HorizontalAlignment="Left" Margin="14,120,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCPF" HorizontalAlignment="Left" Margin="45,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="0"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="14,181,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="45,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="1"/>
+        <Label Content="Telefone:" HorizontalAlignment="Left" Margin="14,238,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTelefone" HorizontalAlignment="Left" Margin="45,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="383" TabIndex="2"/>
+        <Button x:Name="btnCadastrar" Content="Cadastrar Paciente" HorizontalAlignment="Left" Margin="45,329,0,0" VerticalAlignment="Top" Height="40" Width="383" Click="btnCadastrar_Click" TabIndex="4"/>
     </Grid>
 </Window>
