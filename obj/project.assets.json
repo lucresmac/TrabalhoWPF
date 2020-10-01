@@ -5721,23 +5721,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andre\\.nuget\\packages\\": {},
+    "C:\\Users\\andre.ti\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\Hospital\\Hospital\\Hospital.csproj",
+      "projectUniqueName": "G:\\Desktop\\TrabalhoWPF-main\\Hospital.csproj",
       "projectName": "Hospital",
-      "projectPath": "D:\\Documents\\GitHub\\Hospital\\Hospital\\Hospital.csproj",
-      "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\Hospital\\Hospital\\obj\\",
+      "projectPath": "G:\\Desktop\\TrabalhoWPF-main\\Hospital.csproj",
+      "packagesPath": "C:\\Users\\andre.ti\\.nuget\\packages\\",
+      "outputPath": "G:\\Desktop\\TrabalhoWPF-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre.ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5794,7 +5794,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

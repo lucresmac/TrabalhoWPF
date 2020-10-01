@@ -39,7 +39,11 @@ namespace Hospital.Views
             if(dataGrid1.SelectedItem == null)
                 return;
             var select  = dataGrid1.SelectedItem as Paciente;
-            MessageBox.Show(string.Format("The Person you double clicked on is - Name: {0}", select.ID));
+            frmOpcao frm = new frmOpcao(select.ID);
+            frm.ShowDialog();
+            //MessageBox.Show(string.Format("The Person you double clicked on is - Name: {0}", select.ID));
+
+
 
         }
     }

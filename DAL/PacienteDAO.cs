@@ -12,7 +12,7 @@ namespace Hospital.DAL
     {
         private static Context context = new Context();
 
-        //public static Paciente BuscaPacienteID(int atendimento) => context.Pacientes.FirstOrDefault(x => x.ID == atendimento);
+        public static Paciente BuscaPacienteID(int atendimento) => context.Pacientes.FirstOrDefault(x => x.ID == atendimento);
         public static Paciente BuscaPacienteNome(string nome) => context.Pacientes.FirstOrDefault(x => x.Nome == nome);
 
         public static List<Paciente> BuscaPacienteLista(string nome) => context.Pacientes.Where(x => x.Nome == nome).ToList();

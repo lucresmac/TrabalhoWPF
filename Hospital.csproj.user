@@ -13,6 +13,12 @@
     <Compile Update="Views\frmCadastro.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\frmInitAtendimento.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\frmOpcao.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\frmPrincipal.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\frmCadastro.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\frmInitAtendimento.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\frmOpcao.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\frmPrincipal.xaml">
