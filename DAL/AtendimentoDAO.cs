@@ -28,7 +28,8 @@ namespace Hospital.DAL
         }
         public static List<AtendimentoPaciente> BuscaAtendimento() /*=> context.Atendimentos.ToList();*/
         {
-            var join = context.AtendimentoPacientes.FromSqlRaw("select a.tipo,a.Sintomas, p.* from atendimento a, pacientes p where a.id_paciente = p.ID");
+            //var join = context.AtendimentoPacientes.FromSqlRaw("select a.tipo,a.Sintomas,a.id_paciente p.* from atendimento a, pacientes p where a.id_paciente = p.ID");
+            var join = context.AtendimentoPacientes.FromSqlRaw("select a.tipo,a.Sintomas,a.Id, p.Nome from atendimento a, pacientes p where a.id_paciente = p.ID");
 
             return join.ToList();
         }

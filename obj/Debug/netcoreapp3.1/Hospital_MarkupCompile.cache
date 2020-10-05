@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-G:\Dropbox\TrabalhoWPF\obj\Debug\netcoreapp3.1\
+D:\Documents\GitHub\Hospital\Hospital\obj\Debug\netcoreapp3.1\
 Hospital
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-G:\Dropbox\TrabalhoWPF\App.xaml
+D:\Documents\GitHub\Hospital\Hospital\App.xaml
 7-1810654833
 
 20-227815240
-2171362058400
+217495889034
 Views\frmAlterarPaciente.xaml;Views\frmBuscaPaciente.xaml;Views\frmCadastro.xaml;Views\frmInitAtendimento.xaml;Views\frmMedico.xaml;Views\frmOpcao.xaml;Views\frmPrincipal.xaml;
 
 False

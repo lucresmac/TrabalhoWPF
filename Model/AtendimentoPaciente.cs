@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Hospital.Model
@@ -10,5 +11,8 @@ namespace Hospital.Model
         public string Sintomas { get; set; }
         public string Nome { get; set; }
         public int ID { get; set; }
+
+        //[Column("id")]
+        //public int AtendimentoID { get; set; }
     }
 }

@@ -20,7 +20,7 @@ namespace Hospital.Views
     public partial class frmMedico : Window
     {
         Prescricao prescricao;
-        int ID, ID_Prescricao, AtendimentoID;
+        int ID, ID_Prescricao;
         public frmMedico()
         {
             InitializeComponent();
@@ -38,7 +38,7 @@ namespace Hospital.Views
             {
                 var select = grid.SelectedItem as AtendimentoPaciente;
                 ID = select.ID;
-                var paciente = PrescricaoDAO.BuscaPrescricaoAtendimento(ID);
+                //var paciente = PrescricaoDAO.BuscaPrescricaoAtendimento(ID);
 
                 if (PrescricaoDAO.BuscaPrescricaoAtendimento(ID) != null)
                 {
@@ -55,7 +55,7 @@ namespace Hospital.Views
             prescricao = new Prescricao
             {
                 TextoPrescricao = txtPrescricao.Text,
-                AtendimentoID = AtendimentoID
+                AtendimentoID = ID
             };
             if (!string.IsNullOrWhiteSpace(txtPrescricao.Text))
             {
@@ -96,8 +96,16 @@ namespace Hospital.Views
 
         private void btnAlterar_Click(object sender, RoutedEventArgs e)
         {
-            prescricao.TextoPrescricao = txtPrescricao.Text;
-            prescricao.ID = ID_Prescricao;
+            if (PrescricaoDAO.AlterarPrescricao(txtPrescricao.Text, ID_Prescricao))
+            {
+                MessageBox.Show("Prescricao alterado com sucesso!!!", "",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+                grid_prescricao.ItemsSource = PrescricaoDAO.BuscaPrescricaoAtendimento(ID);
+                LimpaFormulario();
+                btnAlterar.Visibility = Visibility.Hidden;
+                btnRemover.Visibility = Visibility.Hidden;
+                btnCadastrar.Visibility = Visibility.Visible;
+            }
         }
 
         private void btnRemover_Click(object sender, RoutedEventArgs e)
@@ -110,6 +118,9 @@ namespace Hospital.Views
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 LimpaFormulario();
                 grid_prescricao.ItemsSource = PrescricaoDAO.BuscaPrescricaoAtendimento(ID);
+                btnAlterar.Visibility = Visibility.Hidden;
+                btnRemover.Visibility = Visibility.Hidden;
+                btnCadastrar.Visibility = Visibility.Visible;
             }
             else
             {
@@ -120,6 +131,7 @@ namespace Hospital.Views
         public void LimpaFormulario()
         {
             txtPrescricao.Text = "";
+
         }
     }
 }

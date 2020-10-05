@@ -28,10 +28,12 @@ namespace Hospital.DAL
             context.SaveChanges();
         }
 
-        public static void AlterarPrescricao(Prescricao prescricao)
+        public static bool AlterarPrescricao(string alterada, int id)
         {
-            context.Prescricao.Update(prescricao);
+            var pres = context.Prescricao.Find(id);
+            pres.TextoPrescricao = alterada;
             context.SaveChanges();
+            return true;
         }
     }
 }
