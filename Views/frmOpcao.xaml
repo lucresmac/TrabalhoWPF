@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Hospital.Views"
         mc:Ignorable="d"
-        Title="frmOpcao" Height="100" Width="282">
+        Title="frmOpcao" Height="130" Width="230"  WindowStartupLocation="CenterScreen" FontSize="16" FontWeight="Medium">
     <Grid>
-        <Button Content="Alterar Paciente" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="100" Click="Button_Click"/>
-        <Button Content="Atendimento" HorizontalAlignment="Left" Margin="172,0,0,0" VerticalAlignment="Center" Width="100" Click="Button_Click_1"/>
+        <Button Content="Alterar Paciente" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click"/>
+        <Button Content="Atendimento" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

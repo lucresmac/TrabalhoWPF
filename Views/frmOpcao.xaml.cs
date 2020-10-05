@@ -26,13 +26,18 @@ namespace Hospital.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            Close();
+            frmAlterarPaciente frm = new frmAlterarPaciente(paciente_id);
+            frm.ShowDialog();
+            //frm.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            Close();
             frmInitAtendimento frm = new frmInitAtendimento(paciente_id);
             frm.ShowDialog();
+            
         }
     }
 }

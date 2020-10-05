@@ -8,23 +8,23 @@
         Title="frmInitAtendimento" Height="431" Width="459" WindowStartupLocation="CenterScreen" FontSize="16" FontWeight="Medium">
     <Grid>
         <Label Content="Nome do Paciente:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Width="439">
+        <ComboBox Name="combAtendimento" HorizontalAlignment="Center" Margin="0,110,0,0" VerticalAlignment="Top" Width="439">
             <ComboBoxItem>URGENCIA</ComboBoxItem>
         </ComboBox>
         <Label Content="Tipo de Chegada" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Width="439">
+        <ComboBox Name="combChegada" HorizontalAlignment="Center" Margin="0,178,0,0" VerticalAlignment="Top" Width="439">
             <ComboBoxItem Content="Ambulancia"/>
             <ComboBoxItem Content="Helicoptero"/>
         </ComboBox>
         <TextBox HorizontalAlignment="Center" x:Name="txtNome" Margin="0,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439"/>
         <Label Content="Tipo de Atendimento:" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top"/>
         <Label Content="Sintomas" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Width="439">
+        <ComboBox Name="combSintomas" HorizontalAlignment="Center" Margin="0,246,0,0" VerticalAlignment="Top" Width="439">
             <ComboBoxItem Content="Dores"/>
             <ComboBoxItem Content="Febre"/>
             <ComboBoxItem Content="Gripe"/>
         </ComboBox>
-        <Button Content="Iniciar Atendimento" HorizontalAlignment="Left" Margin="109,319,0,0" VerticalAlignment="Top"/>
+        <Button Content="Iniciar Atendimento" HorizontalAlignment="Center" Margin="0,319,0,0" VerticalAlignment="Top" Width="439" Click="Button_Click"/>
 
     </Grid>
 </Window>

@@ -15,6 +15,9 @@
                 <MenuItem x:Name="CadastrarPaciente" Header="Cadastrar" Click="CadastrarPaciente_Click"/>
                 <MenuItem x:Name="BuscarPaciente" Header="Buscar" Click="BuscarPaciente_Click"/>
             </MenuItem>
+            <MenuItem Header="_Medico">
+                <MenuItem x:Name="Atendimento" Header="Buscar Atendimento" Click="Atendimento_Click"/>
+            </MenuItem>
             <MenuItem Header="_Sobre"/>
         </Menu>
     </Grid>

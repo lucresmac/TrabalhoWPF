@@ -5727,11 +5727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Desktop\\TrabalhoWPF-main\\Hospital.csproj",
+      "projectUniqueName": "G:\\Dropbox\\TrabalhoWPF\\Hospital.csproj",
       "projectName": "Hospital",
-      "projectPath": "G:\\Desktop\\TrabalhoWPF-main\\Hospital.csproj",
+      "projectPath": "G:\\Dropbox\\TrabalhoWPF\\Hospital.csproj",
       "packagesPath": "C:\\Users\\andre.ti\\.nuget\\packages\\",
-      "outputPath": "G:\\Desktop\\TrabalhoWPF-main\\obj\\",
+      "outputPath": "G:\\Dropbox\\TrabalhoWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

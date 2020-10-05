@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\frmAlterarPaciente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\frmBuscaPaciente.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -14,6 +17,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\frmInitAtendimento.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\frmMedico.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\frmOpcao.xaml.cs">
@@ -24,6 +30,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\frmAlterarPaciente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\frmBuscaPaciente.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -31,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\frmInitAtendimento.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\frmMedico.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\frmOpcao.xaml">
