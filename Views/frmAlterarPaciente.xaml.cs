@@ -31,6 +31,7 @@ namespace Hospital.Views
             if (paciente != null)
             {
                 txtNome.Text = paciente.Nome;
+                txtSobrenome.Text = paciente.SobreNome;
                 txtCPF.Text = paciente.CPF;
                 txtEmail.Text = paciente.Email;
                 txtTelefone.Text = paciente.Telefone;
@@ -48,6 +49,7 @@ namespace Hospital.Views
         {
             paciente.ID = id_paciente;
             paciente.Nome = txtNome.Text;
+            paciente.SobreNome = txtSobrenome.Text;
             paciente.CPF = txtCPF.Text;
             paciente.Email = txtEmail.Text;
             paciente.Telefone = txtTelefone.Text;

@@ -27,6 +27,7 @@ namespace Hospital.Views
             paciente = new Paciente
             {
                 Nome = txtNome.Text,
+                SobreNome = txtSobrenome.Text,
                 CPF = txtCPF.Text,
                 Email = txtEmail.Text,
                 Telefone = txtTelefone.Text,
