@@ -29,7 +29,8 @@ namespace Hospital.Views
                 Nome = txtNome.Text,
                 CPF = txtCPF.Text,
                 Email = txtEmail.Text,
-                Telefone = txtTelefone.Text
+                Telefone = txtTelefone.Text,
+                Celular = txtCelular.Text
             };
             if (!string.IsNullOrWhiteSpace(txtNome.Text))
             {

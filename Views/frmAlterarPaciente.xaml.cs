@@ -34,6 +34,7 @@ namespace Hospital.Views
                 txtCPF.Text = paciente.CPF;
                 txtEmail.Text = paciente.Email;
                 txtTelefone.Text = paciente.Telefone;
+                txtCelular.Text = paciente.Celular;
             }
             else
             {
@@ -50,6 +51,7 @@ namespace Hospital.Views
             paciente.CPF = txtCPF.Text;
             paciente.Email = txtEmail.Text;
             paciente.Telefone = txtTelefone.Text;
+            paciente.Celular = txtCelular.Text;
 
             if (PacienteDAO.AlteraraPaciente(paciente))
             {
