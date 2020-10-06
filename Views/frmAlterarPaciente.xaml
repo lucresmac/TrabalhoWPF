@@ -19,7 +19,7 @@
         <Button Content="Alterar Paciente" HorizontalAlignment="Center" Margin="0,453,0,0" VerticalAlignment="Top" Height="40" Width="439" TabIndex="4" Click="Button_Click"/>
         <Label Content="Celular:" HorizontalAlignment="Left" Margin="14,358,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtCelular" HorizontalAlignment="Center" Margin="0,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" TabIndex="2"/>
-        <Label Content="Sobrenome:" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top"/>
+        <Label Content="Sobrenome do Paciente:" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtSobrenome" HorizontalAlignment="Center" Margin="0,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" />
     </Grid>
 </Window>
